@@ -11,30 +11,17 @@ namespace _14.NumberTable
         static void Main(string[] args)
         {
             int num = int.Parse(Console.ReadLine());
-            int count = 0;
-
+            
             for (int i = 0; i < num; i++)
             {
-                count = i;
-                int emo = 0;
-
-                for (int j = 0; j < num; j++)
+                int count = i;
+                for (int j = 0; j < num -i ; j++)
                 {
-                    emo++;
-                    if (count < num)
-                    {
-                        Console.Write(++count);
-                    }
-                    else
-                    {
-                        while (true)
-                        {
-                            Console.Write(--count);
-                            emo++;
-                            if (emo >= 5) break;
-                        }
-                         break;
-                    }
+                    Console.Write($"{++count} ");
+                }
+                for (int j = i; j >=1; j--)
+                {
+                    Console.Write($"{--count} ");
                 }
                 Console.WriteLine();
             }
