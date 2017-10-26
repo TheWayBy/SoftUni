@@ -22,11 +22,17 @@ namespace _08.House
                 }
                 else
                 {
-                    Console.Write(new string('-', (num /2) - i - 1));
-                    Console.Write(new string('*', i == 1 ? i : i*2 - 1));
-                    Console.Write(new string('-', (num / 2) - i - 1));
+                    Console.Write(new string('-', (num - (i * 2 - 1)) / 2));
+                    Console.Write(new string('*', i * 2 - 1));
+                    Console.Write(new string('-', (num - (i * 2 - 1)) / 2));
                 }
                 Console.WriteLine();
+            }
+            for (int i = 0; i <= (num / 2) - 1 ; i++)
+            {
+                Console.Write('|');
+                Console.Write(new string ('*', num - 2));
+                Console.WriteLine('|');
             }
         }
     }
