@@ -31,6 +31,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13.NumberPyramid", "13.Numb
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14.NumberTable", "14.NumberTable\14.NumberTable.csproj", "{C6253AF8-53B8-4537-924C-24FB0937D67E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Heart", "Heart\Heart.csproj", "{24188226-544F-4751-97D7-436F811C5F44}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -93,6 +95,10 @@ Global
 		{C6253AF8-53B8-4537-924C-24FB0937D67E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C6253AF8-53B8-4537-924C-24FB0937D67E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C6253AF8-53B8-4537-924C-24FB0937D67E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24188226-544F-4751-97D7-436F811C5F44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24188226-544F-4751-97D7-436F811C5F44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24188226-544F-4751-97D7-436F811C5F44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24188226-544F-4751-97D7-436F811C5F44}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
